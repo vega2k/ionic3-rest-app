@@ -23,10 +23,19 @@
   </ion-item>
   <ion-item>
     <ion-label>Cost : </ion-label>
-    <ion-input type="text" [(ngModel)]="myProduct.cost"></ion-input>
+    <ion-input type="number" [(ngModel)]="myProduct.cost"></ion-input>
   </ion-item>
   <ion-item>
     <ion-label>Quantity : </ion-label>
-    <ion-input type="text" [(ngModel)]="myProduct.quantity"></ion-input>
+    <ion-input type="number" [(ngModel)]="myProduct.quantity"></ion-input>
   </ion-item>
+  <br/>
+  <button ion-button full color="secondary" icon-right
+          (click)="saveProduct(myProduct)">
+    저장 <ion-icon name="md-checkmark"></ion-icon>
+  </button>
+  <button *ngIf="myProduct.id" ion-button full color="danger" icon-right
+          (click)="deleteProduct(myProduct.id)">
+    삭제 <ion-icon name="trash"></ion-icon>
+  </button>
 </ion-content>

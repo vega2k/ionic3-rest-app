@@ -26,5 +26,8 @@ export class HomePage {
     this.navCtrl.push("ProductPage",{product:product});
   }
 
+  createProduct() {
+    this.navCtrl.push("ProductPage",{product:{}});
+  }
 
 }

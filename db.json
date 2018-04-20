@@ -1,24 +1,30 @@
 {
-  "products":[
+  "products": [
     {
-      "id":1,
-      "name":"컴퓨터",
-      "cost":"2000",
-      "quantity":"10"
+      "id": 1,
+      "name": "컴퓨터",
+      "cost": "2000",
+      "quantity": "10"
     },
     {
-      "id":2,
-      "name":"자동차",
-      "cost":"3000",
-      "quantity":"50"
+      "id": 2,
+      "name": "자동차22",
+      "cost": "300022",
+      "quantity": "5022"
+    },
+    {
+      "name": "홍길동",
+      "cost": "3666",
+      "quantity": "2",
+      "id": 3
     }
   ],
-  "customers":[
+  "customers": [
     {
-      "id":100,
-      "name":"홍길동",
-      "age":"30",
-      "addr":"서울"
+      "id": 100,
+      "name": "홍길동",
+      "age": "30",
+      "addr": "서울"
     }
   ]
 }
